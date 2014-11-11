@@ -1,0 +1,5 @@
+# app/config/routing_prod.yml
+hello_world:
+    pattern: /hello/{name}
+    defaults:
+        _controller: "AcmeHelloBundle:Default:hello"
