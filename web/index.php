@@ -4,6 +4,8 @@
 require_once __DIR__ . "/../vendor/autoload.php";
 require_once __DIR__ . "/../app/AppKernel.php";
 
+date_default_timezone_set("Europe/Berlin");
+
 use Symfony\Component\HttpFoundation\Request;
 
 Dotenv::load(__DIR__ . '/../');
